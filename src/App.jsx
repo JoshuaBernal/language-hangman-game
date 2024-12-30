@@ -108,7 +108,7 @@ function App() {
       <section className='flex justify-center my-8'>
           {wordArrayEl}
       </section>
-      <section className='flex flex-wrap justify-center px-24 pt-6'>
+      <section className='flex flex-wrap justify-center px-24 pt-6 xl:px-96 lg:px-64 md:px-48 sm:px-0'>
           {keyboardEl}
       </section>
       {isGameOver && <div className='flex justify-center items-center mt-8'>
