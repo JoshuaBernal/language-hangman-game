@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  background-color: #262626;
+  font-family: "Hanken Grotesk", Arial, Helvetica, sans-serif;
+}
+
+.chip {
+  @apply relative;
+}
+
+.chip.lost::before {
+  content: "💀";
+  @apply absolute flex items-center justify-center h-full w-full text-xs top-0 left-0 bg-black bg-opacity-70;
+}
