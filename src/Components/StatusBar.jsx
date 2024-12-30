@@ -9,9 +9,6 @@ export default function StatusBar(props) {
         prevRefArray.current = props.wrongGuessCount
     })
 
-    console.log(prevRefArray.current)
-    console.log(props.wrongGuessCount)
-
     if (props.isGameWon) {
         return (
             <section className='bg-green-600 text-headerText py-1 my-6 flex items-center justify-center flex-col max-w-80 ml-auto mr-auto rounded'>
